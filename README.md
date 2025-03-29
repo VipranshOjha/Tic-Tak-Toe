@@ -1,60 +1,75 @@
 # Tic Tac Toe Game
 
-This repository contains a simple Tic Tac Toe game implemented in Python using `tkinter`, providing both single-player and multiplayer modes.
+This repository contains a simple **Tic Tac Toe** game implemented in Python using `tkinter`, featuring both **Single-Player** and **Multiplayer** modes.
 
-## How to Play
+## 🎮 How to Play
 
-Experience the classic game of Tic Tac Toe with the following steps:
-
-1. **Installation**
+### 1. Installation
    - Clone this repository:
      ```bash
-     git clone https://github.com/VipranshOjha/tic-tac-toe.git
+     git clone https://github.com/VipranshOjha/Tic-Tac-Toe.git
      ```
-   - Ensure you have Python installed.
+   - Ensure Python (3.x) is installed on your system.
 
-2. **Run the Game**
-   - Navigate to the project directory.
-   - Execute the Python script:
+### 2. Run the Game
+   - Navigate to the project directory:
      ```bash
-     python tic_tac_toe.py
+     cd Tic-Tac-Toe
+     ```
+   - Run the Python script:
+     ```bash
+     python TicTacToe.py
      ```
 
-3. **Game Rules**
-   - Choose a mode (`SinglePlayer` or `Multiplayer`) by clicking the respective buttons.
-   - Click on the squares in the 3x3 grid to place your marker (`X` or `O`).
-   - The first player to align three of their markers horizontally, vertically, or diagonally wins.
-   - Click "Restart Game" to reset the board and start a new game.
+### 3. Game Rules
+   - **Choose a mode**: Click `SinglePlayer` to play against AI or `Multiplayer` to play with a friend.
+   - **Make your move**: Click on any empty square in the **3x3 grid** to place your marker (`X` or `O`).
+   - **Win Condition**: Align three of your markers in a row, column, or diagonal.
+   - **Restart**: Click "Restart Game" to reset the board.
 
-## Game Components
+---
 
-- **Graphical User Interface (GUI)**
-  - Implemented using `tkinter` for buttons, labels, and game board visualization.
-  - Provides a simple yet intuitive interface for playing Tic Tac Toe.
+## 🛠 Game Components
 
-- **Modes**
-  - **SinglePlayer**: Play against the computer AI.
-  - **Multiplayer**: Play against another player on the same device.
+### 🎨 Graphical User Interface (GUI)
+- Built using `tkinter`, providing buttons, labels, and a clean 3x3 game board.
+- Simple, intuitive interface for an engaging Tic Tac Toe experience.
 
-- **Game Logic**
-  - Tracks the game state using a dictionary (`board`) to represent the 3x3 grid.
-  - Implements logic for checking win conditions (`checkForWin`), draw conditions (`checkForDraw`), and game restart.
+### 🔥 Game Modes
+- **SinglePlayer**: Play against an AI-powered computer opponent.
+- **Multiplayer**: Play with a friend on the same device.
 
-- **Computer AI (SinglePlayer)**
-  - Utilizes the minimax algorithm to determine the optimal move for the computer player (`O`).
+### 🧠 AI-Powered Single Player Mode
+- Uses the **Minimax algorithm** to determine the best possible moves for the AI (`O`).
+- Ensures a challenging experience by preventing easy wins.
 
-## Repository Structure
+---
 
-- `tic_tac_toe.py`: Main Python script containing the Tic Tac Toe game logic and GUI implementation.
-- `README.md`: This document explaining the game and its usage.
+## 📁 Repository Structure
 
-## Dependencies
+- `tic_tac_toe.py` → **Main Python script** containing the game logic & GUI.
+- `README.md` → **This document**, providing game details and instructions.
 
-- Python 3.x
-- `tkinter` library for GUI development.
+---
 
-## Acknowledgments
+## 📦 Dependencies
+- Python **3.x**
+- `tkinter` (included with Python by default)
 
-This Tic Tac Toe game was developed by Vipransh Ojha as a fun project to practice Python and GUI programming with `tkinter`.
+---
 
-Enjoy playing Tic Tac Toe! Feel free to modify the code and add new features. If you have any feedback or suggestions, please reach out.
+## 🤝 Contributions (Optional)
+Got an idea to improve the game?  
+- Feel free to fork this repository and submit a pull request.
+- Suggestions and feature requests are always welcome!
+
+---
+
+## 📜 Acknowledgments
+
+This Tic Tac Toe game was developed by **Vipransh Ojha** as a fun project to explore Python GUI development using `tkinter`.
+
+Enjoy the game! 🏆  
+If you find this project useful, give it a ⭐ on GitHub!  
+
+---
