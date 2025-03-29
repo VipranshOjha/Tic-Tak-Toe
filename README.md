@@ -58,7 +58,7 @@ This repository contains a simple **Tic Tac Toe** game implemented in Python usi
 
 ---
 
-## 🤝 Contributions (Optional)
+## 🤝 Contributions
 Got an idea to improve the game?  
 - Feel free to fork this repository and submit a pull request.
 - Suggestions and feature requests are always welcome!
